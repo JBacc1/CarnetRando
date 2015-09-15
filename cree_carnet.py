@@ -477,7 +477,7 @@ def pavage2cadres(bounds,taille_utile_km_gd,taille_utile_km_pt,mapscale):
 	cy=[]
 	cx=[]
 	format='portrait'
-	if ini.getboolean('PAGE','forcelandscape') or args.forcelandscape:
+	if ini.getboolean('MAP','forcelandscape') or args.forcelandscape:
 		format="landscape"
 
 	deltay=0.000000001/mapscale
