@@ -1,0 +1,12 @@
+﻿\newpage
+\newgeometry{top=0.095\textheight,bottom=0.095\textheight,inner=0.185\textwidth,outer=0.135\textwidth}
+\vspace*{0.05\textheight}
+\vspace{\stretch{1}}
+\paragraph{}Une traversée de la Chaine des Puys sans s'encombrer de droits d'auteur.
+
+\paragraph{}Alors que la Fédération de Randonnée Pédestre continue de protéger précieusement sa propriété intellectuelle sur les GR®30 et 441, respectivement Tour des Volcans et Lacs d'Auvergne, et Tour de la Chaine des Puy, nous pouvons également faire le choix de randonner librement, hors de ces itinéraires qui, bien qui très présents dans l'imaginaire collectif, ne sont pas des biens communs. Ce petit guide propose des cartes topographiques avec quelques informations touristiques le long d'une traversée de la Chaine des Puy de la Gare de Volvic au Lac d'Aydat, sans la surcharge des itinéraires existants et balisés. 
+\begin{sloppypar}
+\paragraph{}Ces fiches sont simplement une utilisation des données d'Open\-Street\-Map, un projet de cartographie participative, à mi-mai 2015, à l'aide de représentation cartographique R25 de JB (OSM : JBacc1). Les données OSM ne garantissent ni leur exactitude, ni leur complétude, rappelez-vous en lors de votre préparation ou sur le terrain ! Elles sont sous licence ODbL, les cartes sont elles sous licence CC-BY-SA. Des manques, des imprécisions ? Participez : www.openstreetmap.fr !
+\end{sloppypar}
+\vspace{\stretch{2}}
+\restoregeometry

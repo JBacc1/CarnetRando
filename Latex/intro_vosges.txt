@@ -1,0 +1,11 @@
+﻿\newpage
+\newgeometry{top=0.095\textheight,bottom=0.095\textheight,inner=0.19\textwidth,outer=0.145\textwidth}
+\vspace*{0.01\textheight}
+\vspace{\stretch{1}}
+\paragraph{}La Crête des Vosges sans s'encombrer d'itinéraire. 
+\paragraph{}Le Club Vosgien et la Fédération Française de Randonnée Pédestre se battent encore pour savoir à qui appartient la propriété intellectuelle du bien connu GR®5 dans sa traversée du massif des Vosges. Non, cet itinéraire n'est pas un bien commun, mais précieusement protégé. Qu'avons-nous à en faire ? La crête est une frontière naturelle suffisamment définie pour que nous puissions la parcourir sans nous préoccuper de ces détails. Ce petit guide propose des cartes topographiques le long de la crête des Vosges avec quelques informations touristiques, sans la surcharge des itinéraires existants et balisés. Le randonneur habitué pourra y faire ses choix de passage, pour les autres, le balisage reste suffisamment dense sur le terrain pour ne pas s'y perdre.
+\begin{sloppypar}
+\paragraph{}Ces fiches sont simplement une utilisation des données d'Open\-Street\-Map, un projet de cartographie participative, à mi-mai 2015, à l'aide de représentation cartographique R25 de JB (OSM : JBacc1). Les données OSM ne garantissent ni leur exactitude, ni leur complétude, rappelez-vous en lors de votre préparation ou sur le terrain ! Elles sont sous licence ODbL, les cartes sont elles sous licence CC-BY-SA. Des man\-ques, des imprécisions ? Participez : www.openstreetmap.fr !
+\end{sloppypar}
+\vspace{\stretch{2}}
+\restoregeometry

@@ -1,0 +1,84 @@
+// Feuille de style Maperitive pour représenter les cadres dans le projet CarnetRando de JB.
+// http://maperitive.net
+
+// Created by JB, http://www.openstreetmap.org/user/JBacc1
+// Released under the Creative Commons Attribution-ShareAlike 4.0 License (http://creativecommons.org/licenses/by-sa/4.0/)
+
+features
+	points, areas
+	lines
+		trace GPS: gpstrack[] 
+
+	areas
+		cadre: rendu=cadre
+
+properties
+	map-background-color : white
+	map-background-opacity : 1
+	map-sea-color : #B5D0D0
+	font-weight : bold
+	font-family : Verdana
+	text-max-width : 7
+	text-halo-width : 25%
+	text-halo-opacity : 0.75
+	text-align-horizontal : center
+	text-align-vertical : center
+	font-stretch : 0.9
+	map.rendering.lflp.min-buffer-space : 5
+	map.rendering.lflp.max-allowed-corner-angle : 40
+
+rules
+	target: cadre
+		define
+			line-color : blue
+			line-opacity : 0.95
+			line-width : 1.5
+			fill-opacity: 0
+		draw : fill
+		define
+			font-family: Open Sans
+			font-stretch: 0.95
+			font-size: 8
+//			text-align-horizontal: far
+//			text-align-vertical: near
+			text-line-spacing: 0.8
+			text-halo-width: 0.5
+			text-halo-color: white
+			text-halo-opacity: 1
+//		for: @isMatch(name,"5")
+//			define
+//				text-offset-vertical: 40%
+//		for: @isMatch(name,"6")
+//			define
+//				text-offset-vertical: -10%
+//		for: @isMatch(name,"11")
+//			define
+//				text-offset-vertical: 200%
+//		for: @isMatch(name,"12")
+//			define
+//				text-offset-vertical: -200%
+//		define
+			shape: square
+			fill-color: white
+			fill-opacity: 0.1
+			shield-padding-left: 1
+			shield-padding-right: 1
+			shield-padding-top: 0
+			shield-padding-bottom: 0
+			shield-resize-mode: free
+			line-style: none
+
+		draw: shield
+		
+	target: trace GPS
+		define
+			line-color: blue white 10%
+//			line-color: red
+			line-width: 1
+			line-opacity: 0.45
+			line-opacity: 0.6
+//			line-offset-sides: right
+//			line-offset-sides: left
+//			line-offset: 2.6
+		draw: line
+
