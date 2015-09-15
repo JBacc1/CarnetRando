@@ -469,7 +469,7 @@ def gpx2cadres(gpxfile,taille_utile_km_gd,taille_utile_km_pt):
 	return liste_cadres
 
 def pavage2cadres(bounds,taille_utile_km_gd,taille_utile_km_pt,mapscale):
-	if args.forcelandscape:
+	if ini.getboolean('MAP','forcelandscape') or args.forcelandscape:
 		taille_utile_km_gd,taille_utile_km_pt=taille_utile_km_pt,taille_utile_km_gd
 	print("\nDémarrage du pavage")
 	cadres=[]
